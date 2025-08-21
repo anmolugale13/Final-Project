@@ -1,6 +1,6 @@
 [
   {
-    "_id": 1755774038024,
+    "id": 1755774038024,
     "title": "React Workshop_Edit",
     "description": "Learn React in one day",
     "date": "2025-08-30",
@@ -16,31 +16,13 @@
     ]
   },
   {
-    "id": 1755777106646,
-    "title": "Happy Bday",
-    "description": "My bday ",
-    "date": "2025-08-20",
-    "time": "18:21",
-    "location": "Pune",
-    "bannerImage": null
-  },
-  {
     "id": 1755777111355,
     "title": "Happy Bday",
     "description": "My bday ",
     "date": "2025-08-20",
     "time": "18:21",
     "location": "Pune",
-    "bannerImage": null
-  },
-  {
-    "id": 1755777258186,
-    "title": "Happy Bday",
-    "description": "My bday ",
-    "date": "2025-08-20",
-    "time": "18:21",
-    "location": "Pune",
-    "bannerImage": null
+    "bannerImage": "https://tse3.mm.bing.net/th/id/OIP.YOa0oPHLesb5sUwfwIOCaAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     "id": 1755777974402,
@@ -49,15 +31,6 @@
     "date": "2025-08-21",
     "time": "18:37",
     "location": "test1",
-    "bannerImage": null
-  },
-  {
-    "id": 1755779053926,
-    "title": "Test Event",
-    "description": "Test Desc",
-    "date": "2025-08-21",
-    "time": "18:00",
-    "location": "Pune",
     "bannerImage": null
   },
   {
