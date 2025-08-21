@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+🎉 Event Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+A simple and interactive platform to create, view, register, and manage local events. Open your browser and navigate to: 👉 http://localhost:3000
 
-In the project directory, you can run:
+📌 Project Overview
 
-### `npm start`
+The Event Management App is a full-stack web application that enables users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Create new events with details like date, time, location, and banner.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ View a list of all upcoming events.
 
-### `npm test`
+✅ Edit or delete existing events.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Register for events by providing name and email.
 
-### `npm run build`
+✅ View attendees for each event.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Built using React, Node.js, and Express, this project is perfect for small organizations or communities to promote and manage events easily.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Install Dependencies
+npm install
 
-### `npm run eject`
+2. Start the Development Server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⚠️ Ensure the backend server (Node/Express) is also running on http://localhost:5000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   node server.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📁 Features
 
-## Learn More
+🔍 Browse Events: View all events on the homepage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+➕ Create Event: Fill out a form to create a new event.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✏️ Edit Event: Update event details via the edit form.
 
-### Code Splitting
+🗑️ Delete Event: Remove events with a single click.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🧑‍🤝‍🧑 Register: Register attendees with name & email.
 
-### Analyzing the Bundle Size
+📋 View Attendees: See a list of all registered participants.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🛠 Tech Stack
 
-### Making a Progressive Web App
+Frontend: React, React Router, Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Backend: Node.js, Express.js
 
-### Advanced Configuration
+Styling: CSS, Inline styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Data: JSON / MongoDB (depending on backend setup)
 
-### Deployment
+📜 Available Scripts
+Command	Description
+npm start	Starts the React app in development mode
+npm test	Launches the test runner
+npm run build	Creates a production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+📁 Folder Structure
+/src
+  ├── components/
+  ├── pages/
+  ├── App.js
+  ├── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+📜 Scripts
+Command	Purpose
+npm start	Runs app in development mode
+npm test	Runs test suite
+npm run build	Builds app for production
+npm run eject	Ejects from Create React App (optional)
+📦 Tech Stack
+
+React (Frontend)
+
+Axios (API Calls)
+
+React Router (Routing)
+
+Node.js + Express (Backend)
+
+JSON or MongoDB (Database)
+
