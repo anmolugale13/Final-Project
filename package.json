@@ -2,7 +2,7 @@
   "name": "eventhub-deploy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anmolugale13.github.io/Final-Project",
+  "homepage": "https://anmolugale13.github.io/Final-Project/",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
