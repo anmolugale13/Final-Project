@@ -67,47 +67,85 @@ npm run build	Creates a production
 
 
 LOCAL-EVENTS-APP/
+
 ├── eventhub-frontend/ # Frontend React application
+
 │   ├── public/ # Static files
+
 │   │   └── assets/ # Additional assets (not shown in your file list)
+
 │   ├── src/ # Source files
+
 │   │   ├── components/ # Reusable UI components (not shown in your file list)
+
 │   │   ├── App.js # Main application component
+
 │   │   ├── index.js # Entry point (assuming index.jsx is index.js)
+
 │   │   └── ...other src files...
+
 │   └── package.json # Frontend dependencies
+
 ├── eventhub-frontend-backup/ # Backup of frontend application
+
 ├── node_modules/ # Installed dependencies
+
 ├── dummy.json # JSON data file
+
 ├── package-lock.json # Lockfile for dependencies
+
 ├── package.json # Top-level dependencies (if any)
+
 ├── server.js # Backend server (if this is the entry point)
+
 └── README.md # Project documentation
 
 
 LOCAL-EVENTS-APP/
 ├── eventhub-frontend/
+
 │   ├── App.js
+
 │   ├── App.test.js
+
 │   ├── CreatePage.js
+
 │   ├── dummy.json
+
 │   ├── EditEvent.js
+
 │   ├── EventDetail.js
+
 │   ├── EventList.js
+
 │   ├── HomePage.js
+
 │   ├── index.css
+
 │   ├── index.js
+
 │   ├── logo.svg
+
 │   ├── package-lock.json
+
 │   ├── package.json
+
 │   ├── reportWebVitals.js
+
 │   ├── server.js (or not, depending on your setup)
+
 │   └── setupTests.js
+
 ├── eventhub-frontend-backup/
+
 ├── node_modules/
+
 ├── dummy.json
+
 ├── package-lock.json
+
 ├── package.json
+
 └── server.js (if not inside eventhub-frontend)
 
 
